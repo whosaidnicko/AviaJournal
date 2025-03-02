@@ -2,5 +2,5 @@
 import Foundation
 
 struct AppConstants {
-    static let shareLink = "http:"
+    static let shareLink = "https://apps.apple.com/app/id6742714695"
 }

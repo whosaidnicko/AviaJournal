@@ -346,7 +346,4 @@ extension View {
         self.modifier(Parcaieulbqows())
     }
     
-    
-   
-    
 }

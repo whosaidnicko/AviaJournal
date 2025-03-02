@@ -34,9 +34,7 @@ struct SettingsView: View {
                             getSettingsCell(title: "Privacy Policy", image: .shieldIcon)
                         })
                         
-                        Button(action: { isTermsShown = true }, label: {
-                            getSettingsCell(title: "Terms of Use", image: .documentIcon)
-                        })
+                        
                     }
                     
                     HStack(spacing: 4.flexible()) {
