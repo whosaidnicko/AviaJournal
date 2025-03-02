@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FinanceEntity" representedClassName="FinanceEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="flightID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FlightEntity" representedClassName="FlightEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="arrival" optional="YES" attributeType="String"/>
+        <attribute name="boardingTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="departue" optional="YES" attributeType="String"/>
+        <attribute name="flightNumber" optional="YES" attributeType="String"/>
+        <attribute name="fuelConsumption" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pilot" optional="YES" attributeType="String"/>
+        <attribute name="takeoffTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ServiceEntity" representedClassName="ServiceEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isOneTime" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="notificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="schedule" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+</model>
